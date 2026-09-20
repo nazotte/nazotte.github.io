@@ -1,0 +1,44 @@
+name: 書き順がちがう / Wrong stroke order
+description: 手本の書き順や字の形がちがう字を見つけたときに / Report a letter whose stroke order or shape looks wrong
+title: "[書き順] "
+labels: ["書き順"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        書いていただいた内容は**この GitHub 上で公開**されます。公開したくないときはメール(chemise_merry0o@icloud.com)へ。
+        / What you write here becomes **public on GitHub**. If you prefer not to post in public, please e-mail instead.
+  - type: input
+    id: character
+    attributes:
+      label: どの字ですか / Which letter or kanji
+      placeholder: 例) き / 曜
+    validations:
+      required: true
+  - type: dropdown
+    id: app
+    attributes:
+      label: どのアプリですか / Which app
+      options:
+        - ひらがな・カタカナ / Hiragana & Katakana
+        - かんじ1年 / Kanji Grade 1
+        - かんじ2年 / Kanji Grade 2
+        - かんじ3年 / Kanji Grade 3
+        - かんじ4年 / Kanji Grade 4
+        - かんじ5年 / Kanji Grade 5
+        - かんじ6年 / Kanji Grade 6
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: どの画がちがいますか / Which stroke is wrong
+      description: 何画目が、どうちがうか(順番・向き・形)を書いてください / Please say which stroke number, and how it differs (order, direction, shape)
+      placeholder: 例) 3画目と4画目の順番が逆です。学校では横棒が先でした
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: よりどころ(あれば) / Source, if any
+      description: 教科書・書写の教材・辞典など / A textbook, a handwriting workbook, a dictionary…

@@ -1,0 +1,8 @@
+# GitHub Pages(Jekyll)の設定。テーマは GitHub が用意しているものだけを使う(追加の依存を持ち込まない)。
+# minimal テーマは「View My GitHub Profile」ボタンを出すので使わない(利用者を GitHub のプロフィールへ誘導しない)
+title: なぞっておぼえる
+description: 正しい書き順でなぞって覚えるアプリ
+theme: jekyll-theme-cayman
+lang: ja
+exclude:
+  - .github

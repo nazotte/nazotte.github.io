@@ -1,0 +1,16 @@
+name: 質問・ご要望 / Question or request
+description: 使い方の質問、こうしてほしいという要望 / A question about how to use it, or something you would like added
+title: "[質問] "
+labels: ["質問"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        書いていただいた内容は**この GitHub 上で公開**されます。公開したくないときはメール(chemise_merry0o@icloud.com)へ。
+        / What you write here becomes **public on GitHub**. If you prefer not to post in public, please e-mail instead.
+  - type: textarea
+    id: body
+    attributes:
+      label: ご質問・ご要望 / Your question or request
+    validations:
+      required: true

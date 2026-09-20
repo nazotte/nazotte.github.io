@@ -1,0 +1,9 @@
+# 問い合わせの入口(CHG-079)。白紙の Issue は出さず、下のフォームかメールに誘導する
+blank_issues_enabled: false
+contact_links:
+  - name: メールで問い合わせる / Contact by e-mail
+    url: mailto:chemise_merry0o@icloud.com
+    about: 公開したくない内容は、こちらへ。GitHub のアカウントは要りません / For anything you would rather not post in public. No GitHub account needed.
+  - name: サポートのページ / Support page
+    url: https://nazotte.github.io/support/
+    about: よくある質問はこちら / Frequently asked questions

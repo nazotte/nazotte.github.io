@@ -1,0 +1,41 @@
+name: うまく動かない / Something is not working
+description: 落ちる・音が出ない・書けない など / Crashes, no sound, cannot draw…
+title: "[不具合] "
+labels: ["不具合"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        書いていただいた内容は**この GitHub 上で公開**されます。公開したくないときはメール(chemise_merry0o@icloud.com)へ。
+        / What you write here becomes **public on GitHub**. If you prefer not to post in public, please e-mail instead.
+  - type: dropdown
+    id: app
+    attributes:
+      label: どのアプリですか / Which app
+      options:
+        - ひらがな・カタカナ / Hiragana & Katakana
+        - かんじ1年 / Kanji Grade 1
+        - かんじ2年 / Kanji Grade 2
+        - かんじ3年 / Kanji Grade 3
+        - かんじ4年 / Kanji Grade 4
+        - かんじ5年 / Kanji Grade 5
+        - かんじ6年 / Kanji Grade 6
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: 何が起きましたか / What happened
+      description: どの画面で、何をしたときに、どうなったか / On which screen, after doing what, and what happened
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 端末と iOS の版 / Device and iOS version
+      placeholder: 例) iPhone 15 / iOS 18.2
+  - type: input
+    id: version
+    attributes:
+      label: アプリの版 / App version
+      description: 設定(歯車)の下のほうに出ています / Shown near the bottom of the Settings screen
