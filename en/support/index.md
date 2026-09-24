@@ -28,7 +28,7 @@ Turn the volume up. The Apps are made to play sound even when the silent switch 
 In the hiragana/katakana app, Settings lets you choose between the recorded voice (Zundamon) and your device's own speech synthesis.
 
 **Which stroke order do you follow?**
-The one taught in Japanese elementary school handwriting lessons (pencil). For kanji, the stroke order and model shapes come from KanjiVG (see "About this app" inside each app).
+The one taught in Japanese elementary school handwriting lessons (pencil). The stroke order data comes from KanjiVG: the kanji stroke order and model shapes, and the stroke points for hiragana and katakana (see "About this app" inside each app).
 
 **Does the app judge how neat the writing is?**
 No. It only asks the child to try again when the writing is clearly not the letter (for example, a few unrelated lines).
@@ -50,7 +50,7 @@ We use what you send only to reply to you and to improve the apps.
 ## Credits
 
 - Voice: VOICEVOX:ずんだもん
-- Kanji stroke order and model shapes: modified from KanjiVG (c) Ulrich Apel, used under CC BY-SA 3.0. The modified data is published at [Stroke order data](../../stroke-data/)
+- Stroke order data (kanji stroke order and model shapes; hiragana and katakana stroke points): modified from KanjiVG (c) Ulrich Apel, used under CC BY-SA 3.0. The modified data is published at [Stroke order data](../../stroke-data/)
 - Kanji and readings: Japanese Courses of Study (2017), "List of Kanji by School Year"; MEXT list of on/kun readings by school level
 
 [日本語のサポートページ](../../support/)
