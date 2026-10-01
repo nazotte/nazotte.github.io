@@ -3,8 +3,12 @@
 title: なぞっておぼえる
 description: 正しい書き順でなぞって、ひらがな・カタカナと小学校の漢字1,026字を覚える iPhone・iPad アプリ。広告・アプリ内課金・通信なし。
 url: https://nazotte.github.io
+baseurl: ""
 theme: jekyll-theme-cayman
 lang: ja
+# 著作権の表示(フッター)。表記は発注者の指示(2026-10-02)
+copyright_year: 2026
+copyright_holder: Team hetyomokore
 # 検索・AI 向け: <head> の title / description / canonical / OGP(jekyll-seo-tag)と sitemap.xml(jekyll-sitemap)。
 # どちらも GitHub Pages が標準で入れているプラグイン(追加の依存なし)
 plugins:

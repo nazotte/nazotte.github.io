@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+{%- assign lang = page.lang | default: site.lang | default: "ja" -%}
+{%- assign en = false -%}{%- if lang == "en" -%}{%- assign en = true -%}{%- endif -%}
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="UTF-8">
+{% seo %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">{% if en %}Skip to the content.{% else %}本文へ移動{% endif %}</a>
+
+    <header class="page-header" role="banner">
+      {%- if en %}
+      <p class="project-name"><a href="{{ '/en/' | relative_url }}">Trace and Learn</a></p>
+      <p class="project-tagline">Learn to write Japanese letters in the correct stroke order</p>
+      <nav class="site-nav" aria-label="Site">
+        <a href="{{ '/en/' | relative_url }}">Apps</a>
+        <a href="{{ '/en/support/' | relative_url }}">Support</a>
+        <a href="{{ '/en/privacy/' | relative_url }}">Privacy</a>
+        <a href="{{ '/' | relative_url }}" lang="ja">日本語</a>
+      </nav>
+      {%- else %}
+      <p class="project-name"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></p>
+      <p class="project-tagline">正しい書き順で、なぞって覚える</p>
+      <nav class="site-nav" aria-label="サイト">
+        <a href="{{ '/kana/' | relative_url }}">ひらがな・カタカナ</a>
+        <a href="{{ '/kanji/' | relative_url }}">かんじ 1〜6年</a>
+        <a href="{{ '/support/' | relative_url }}">サポート</a>
+        <a href="{{ '/en/' | relative_url }}" lang="en">English</a>
+      </nav>
+      {%- endif %}
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      {{ content }}
+
+      <footer class="site-footer">
+        <span class="site-footer-links">
+          {%- if en %}
+          <a href="{{ '/en/privacy/' | relative_url }}">Privacy Policy</a> ・ <a href="{{ '/en/support/' | relative_url }}">Support</a> ・ <a href="{{ '/stroke-data/' | relative_url }}">Stroke order data</a>
+          {%- else %}
+          <a href="{{ '/privacy/' | relative_url }}">プライバシーポリシー</a> ・ <a href="{{ '/support/' | relative_url }}">サポート</a> ・ <a href="{{ '/stroke-data/' | relative_url }}">書き順データ</a>
+          {%- endif %}
+        </span>
+        <span class="site-footer-credits">© {{ site.copyright_year }} {{ site.copyright_holder }}</span>
+      </footer>
+    </main>
+  </body>
+</html>

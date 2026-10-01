@@ -1,5 +1,5 @@
 ---
-title: "なぞっておぼえる かんじ1年|小学1年生の漢字80字を書き順どおりに"
+title: "なぞっておぼえる かんじ1年 - 小学1年生の漢字80字を書き順どおりに"
 description: "小学1年生で習う漢字80字(学年別漢字配当表)を、正しい書き順でなぞって覚える iPhone・iPad アプリ。無料。広告・通信なし。"
 ---
 
@@ -11,7 +11,7 @@ description: "小学1年生で習う漢字80字(学年別漢字配当表)を、�
 **なぞっておぼえる かんじ1年 は、小学1年生で習う漢字80字を、正しい書き順でなぞって覚える iPhone・iPad 向けのアプリです。**
 文部科学省の学年別漢字配当表のとおりの80字を収録しています。価格は無料で、広告・アプリ内課金・通信はありません。
 
-[App Store で見る](https://apps.apple.com/jp/app/id6814138746)
+<a class="store-button" href="https://apps.apple.com/jp/app/id6814138746">App Store で見る</a>
 
 | 項目 | 内容 |
 |---|---|
@@ -26,18 +26,90 @@ description: "小学1年生で習う漢字80字(学年別漢字配当表)を、�
 
 ## 小学1年生で習う漢字の一覧(80字)
 
-学年別漢字配当表の順です。かっこの中は、アプリの書き順データの画数です。
+学年別漢字配当表の順です。画数は、アプリの書き順データの画数です。
 
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|---|---|---|---|---|---|---|---|---|---|
-| 一(1) | 右(5) | 雨(8) | 円(4) | 王(4) | 音(9) | 下(3) | 火(4) | 花(7) | 貝(7) |
-| 学(8) | 気(6) | 九(2) | 休(6) | 玉(5) | 金(8) | 空(8) | 月(4) | 犬(4) | 見(7) |
-| 五(4) | 口(3) | 校(10) | 左(5) | 三(3) | 山(3) | 子(3) | 四(5) | 糸(6) | 字(6) |
-| 耳(6) | 七(2) | 車(7) | 手(4) | 十(2) | 出(5) | 女(3) | 小(3) | 上(3) | 森(12) |
-| 人(2) | 水(4) | 正(5) | 生(5) | 青(8) | 夕(3) | 石(5) | 赤(7) | 千(3) | 川(3) |
-| 先(6) | 早(6) | 草(9) | 足(7) | 村(7) | 大(3) | 男(7) | 竹(6) | 中(4) | 虫(6) |
-| 町(7) | 天(4) | 田(5) | 土(3) | 二(2) | 日(4) | 入(2) | 年(6) | 白(5) | 八(2) |
-| 百(6) | 文(4) | 木(4) | 本(5) | 名(6) | 目(5) | 立(5) | 力(2) | 林(8) | 六(4) |
+<ul class="kanji-grid" aria-label="小学1年生で習う漢字 80字">
+  <li><span class="k">一</span><span class="s">1画</span></li>
+  <li><span class="k">右</span><span class="s">5画</span></li>
+  <li><span class="k">雨</span><span class="s">8画</span></li>
+  <li><span class="k">円</span><span class="s">4画</span></li>
+  <li><span class="k">王</span><span class="s">4画</span></li>
+  <li><span class="k">音</span><span class="s">9画</span></li>
+  <li><span class="k">下</span><span class="s">3画</span></li>
+  <li><span class="k">火</span><span class="s">4画</span></li>
+  <li><span class="k">花</span><span class="s">7画</span></li>
+  <li><span class="k">貝</span><span class="s">7画</span></li>
+  <li><span class="k">学</span><span class="s">8画</span></li>
+  <li><span class="k">気</span><span class="s">6画</span></li>
+  <li><span class="k">九</span><span class="s">2画</span></li>
+  <li><span class="k">休</span><span class="s">6画</span></li>
+  <li><span class="k">玉</span><span class="s">5画</span></li>
+  <li><span class="k">金</span><span class="s">8画</span></li>
+  <li><span class="k">空</span><span class="s">8画</span></li>
+  <li><span class="k">月</span><span class="s">4画</span></li>
+  <li><span class="k">犬</span><span class="s">4画</span></li>
+  <li><span class="k">見</span><span class="s">7画</span></li>
+  <li><span class="k">五</span><span class="s">4画</span></li>
+  <li><span class="k">口</span><span class="s">3画</span></li>
+  <li><span class="k">校</span><span class="s">10画</span></li>
+  <li><span class="k">左</span><span class="s">5画</span></li>
+  <li><span class="k">三</span><span class="s">3画</span></li>
+  <li><span class="k">山</span><span class="s">3画</span></li>
+  <li><span class="k">子</span><span class="s">3画</span></li>
+  <li><span class="k">四</span><span class="s">5画</span></li>
+  <li><span class="k">糸</span><span class="s">6画</span></li>
+  <li><span class="k">字</span><span class="s">6画</span></li>
+  <li><span class="k">耳</span><span class="s">6画</span></li>
+  <li><span class="k">七</span><span class="s">2画</span></li>
+  <li><span class="k">車</span><span class="s">7画</span></li>
+  <li><span class="k">手</span><span class="s">4画</span></li>
+  <li><span class="k">十</span><span class="s">2画</span></li>
+  <li><span class="k">出</span><span class="s">5画</span></li>
+  <li><span class="k">女</span><span class="s">3画</span></li>
+  <li><span class="k">小</span><span class="s">3画</span></li>
+  <li><span class="k">上</span><span class="s">3画</span></li>
+  <li><span class="k">森</span><span class="s">12画</span></li>
+  <li><span class="k">人</span><span class="s">2画</span></li>
+  <li><span class="k">水</span><span class="s">4画</span></li>
+  <li><span class="k">正</span><span class="s">5画</span></li>
+  <li><span class="k">生</span><span class="s">5画</span></li>
+  <li><span class="k">青</span><span class="s">8画</span></li>
+  <li><span class="k">夕</span><span class="s">3画</span></li>
+  <li><span class="k">石</span><span class="s">5画</span></li>
+  <li><span class="k">赤</span><span class="s">7画</span></li>
+  <li><span class="k">千</span><span class="s">3画</span></li>
+  <li><span class="k">川</span><span class="s">3画</span></li>
+  <li><span class="k">先</span><span class="s">6画</span></li>
+  <li><span class="k">早</span><span class="s">6画</span></li>
+  <li><span class="k">草</span><span class="s">9画</span></li>
+  <li><span class="k">足</span><span class="s">7画</span></li>
+  <li><span class="k">村</span><span class="s">7画</span></li>
+  <li><span class="k">大</span><span class="s">3画</span></li>
+  <li><span class="k">男</span><span class="s">7画</span></li>
+  <li><span class="k">竹</span><span class="s">6画</span></li>
+  <li><span class="k">中</span><span class="s">4画</span></li>
+  <li><span class="k">虫</span><span class="s">6画</span></li>
+  <li><span class="k">町</span><span class="s">7画</span></li>
+  <li><span class="k">天</span><span class="s">4画</span></li>
+  <li><span class="k">田</span><span class="s">5画</span></li>
+  <li><span class="k">土</span><span class="s">3画</span></li>
+  <li><span class="k">二</span><span class="s">2画</span></li>
+  <li><span class="k">日</span><span class="s">4画</span></li>
+  <li><span class="k">入</span><span class="s">2画</span></li>
+  <li><span class="k">年</span><span class="s">6画</span></li>
+  <li><span class="k">白</span><span class="s">5画</span></li>
+  <li><span class="k">八</span><span class="s">2画</span></li>
+  <li><span class="k">百</span><span class="s">6画</span></li>
+  <li><span class="k">文</span><span class="s">4画</span></li>
+  <li><span class="k">木</span><span class="s">4画</span></li>
+  <li><span class="k">本</span><span class="s">5画</span></li>
+  <li><span class="k">名</span><span class="s">6画</span></li>
+  <li><span class="k">目</span><span class="s">5画</span></li>
+  <li><span class="k">立</span><span class="s">5画</span></li>
+  <li><span class="k">力</span><span class="s">2画</span></li>
+  <li><span class="k">林</span><span class="s">8画</span></li>
+  <li><span class="k">六</span><span class="s">4画</span></li>
+</ul>
 
 ## よくある質問
 

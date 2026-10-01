@@ -145,25 +145,21 @@ def kanji_grade_page(g: int) -> str:
         ("ほかの学年もありますか?",
          f"小学1年〜6年まで学年ごとに1本ずつあります(全{TOTAL}字)。ひらがな・カタカナのアプリもあります。"),
     ]
-    rows = []
-    for i in range(0, n, 10):
-        chunk = KANJI[g][i:i + 10]
-        rows.append("| " + " | ".join(f"{c}({s})" for c, s in chunk) + " |")
-    cols = len(KANJI[g][:10])
-    table = "| " + " | ".join(str(c + 1) for c in range(cols)) + " |\n|" + "---|" * cols + "\n" + "\n".join(rows)
+    items = "\n".join(f'  <li><span class="k">{c}</span><span class="s">{st}画</span></li>' for c, st in KANJI[g])
+    table = f'<ul class="kanji-grid" aria-label="小学{g}年生で習う漢字 {n}字">\n{items}\n</ul>'
 
     ld = [
         app_ld(g, name, desc, url, level=f"小学{g}年"),
         faq_ld(faqs),
         crumbs_ld([("なぞっておぼえる", f"{SITE}/"), ("かんじ", f"{SITE}/kanji/"), (f"{g}年", url)]),
     ]
-    return f"""{front(f'{name}|小学{g}年生の漢字{n}字を書き順どおりに', desc)}
+    return f"""{front(f'{name} - 小学{g}年生の漢字{n}字を書き順どおりに', desc)}
 # {name}
 
 **{name} は、小学{g}年生で習う漢字{n}字を、正しい書き順でなぞって覚える iPhone・iPad 向けのアプリです。**
 文部科学省の学年別漢字配当表のとおりの{n}字を収録しています。価格は{price_text(g)}で、広告・アプリ内課金・通信はありません。
 
-[App Store で見る]({store_url(g)})
+<a class="store-button" href="{store_url(g)}">App Store で見る</a>
 
 | 項目 | 内容 |
 |---|---|
@@ -178,7 +174,7 @@ def kanji_grade_page(g: int) -> str:
 
 ## 小学{g}年生で習う漢字の一覧({n}字)
 
-学年別漢字配当表の順です。かっこの中は、アプリの書き順データの画数です。
+学年別漢字配当表の順です。画数は、アプリの書き順データの画数です。
 
 {table}
 
@@ -219,7 +215,7 @@ def kanji_hub_page() -> str:
     }
     ld = [item_list, faq_ld(faqs),
           crumbs_ld([("なぞっておぼえる", f"{SITE}/"), ("かんじ", url)])]
-    return f"""{front('なぞっておぼえる かんじ|小学1〜6年の漢字を書き順どおりに', desc)}
+    return f"""{front('なぞっておぼえる かんじ - 小学1〜6年の漢字を書き順どおりに', desc)}
 # なぞっておぼえる かんじ(小学1〜6年)
 
 **なぞっておぼえる かんじ は、小学校で習う漢字{TOTAL}字を、学年ごとのアプリで正しい書き順でなぞって覚えるシリーズです。**
@@ -260,13 +256,13 @@ def kana_page() -> str:
     ]
     ld = [app_ld("kana", name, desc, url, level="幼児・小学1年"), faq_ld(faqs),
           crumbs_ld([("なぞっておぼえる", f"{SITE}/"), ("ひらがな・カタカナ", url)])]
-    return f"""{front(f'{name}|書き順どおりになぞって覚える', desc)}
+    return f"""{front(f'{name} - 書き順どおりになぞって覚える', desc)}
 # {name}
 
 **{name} は、ひらがな46字とカタカナ46字を、正しい書き順でなぞって覚える iPhone・iPad 向けのアプリです。**
 無料で、広告・アプリ内課金・通信はありません。
 
-[App Store で見る]({store_url('kana')})
+<a class="store-button" href="{store_url('kana')}">App Store で見る</a>
 
 | 項目 | 内容 |
 |---|---|
@@ -301,7 +297,7 @@ def index_page() -> str:
     }
     org_ld = {**publisher(), "@context": "https://schema.org",
               "sameAs": [store_url(k) for k in APPS]}
-    return f"""{front('なぞっておぼえる|書き順どおりになぞって覚えるアプリ', desc)}
+    return f"""{front('書き順どおりになぞって覚えるアプリ', desc)}
 # なぞっておぼえる
 
 **なぞっておぼえる は、正しい書き順でなぞって、ひらがな・カタカナと小学校の漢字を覚える iPhone・iPad 向けのアプリです。**

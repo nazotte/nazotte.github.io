@@ -1,0 +1,58 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+// 日本語の本文に合わせて、OS の日本語フォントで表示する(外部フォントは読み込まない)
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", Meiryo, sans-serif;
+  line-height: 1.75;
+}
+
+.page-header {
+  padding: 2.25rem 1.5rem 1.5rem;
+  .project-name { font-size: 2rem; font-weight: 700; margin: 0 0 .25rem; a { color: #fff; text-decoration: none; } }
+  .project-tagline { font-size: 1.05rem; margin: 0 0 1rem; opacity: .85; }
+}
+
+.site-nav {
+  display: flex; flex-wrap: wrap; justify-content: center; gap: .5rem;
+  a {
+    color: #fff; text-decoration: none; padding: .35rem .9rem; border-radius: 999px;
+    border: 1px solid rgba(255,255,255,.35); background: rgba(255,255,255,.08); font-size: .95rem;
+    &:hover { background: rgba(255,255,255,.22); }
+  }
+}
+
+.main-content {
+  h1 { margin-top: .5rem; }
+  h2 { border-bottom: 1px solid #e3eae8; padding-bottom: .3rem; }
+  // 広い画面では表を横幅いっぱいに。狭い画面ではテーマの横スクロールのまま
+  @media screen and (min-width: 64em) { table { display: table; width: 100%; } }
+  @media screen and (max-width: 42em) { table th, table td { padding: .4rem .6rem; font-size: .92rem; } }
+  .lead { font-size: 1.08rem; }
+}
+
+// App Store へのボタン
+.store-button {
+  display: inline-block; margin: .5rem 0 1.25rem; padding: .7rem 1.4rem; border-radius: 12px;
+  background: #111; color: #fff !important; font-weight: 700; text-decoration: none !important;
+  &:hover { background: #333; }
+}
+
+// 学年の漢字一覧
+.kanji-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(4.2rem, 1fr)); gap: .4rem; margin: 1rem 0 1.5rem;
+  padding: 0; list-style: none;
+  li {
+    display: flex; flex-direction: column; align-items: center; padding: .45rem .2rem;
+    border: 1px solid #dce6e4; border-radius: 8px; background: #f8fbfa;
+  }
+  .k { font-size: 1.9rem; line-height: 1.2; font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif; color: #1e2a28; }
+  .s { font-size: .75rem; color: #607370; }
+}
+
+.site-footer {
+  .site-footer-links { display: block; margin-bottom: .4rem; }
+  .site-footer-credits { color: #819198; }
+}

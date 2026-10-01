@@ -1,5 +1,5 @@
 ---
-title: "なぞっておぼえる かんじ3年|小学3年生の漢字200字を書き順どおりに"
+title: "なぞっておぼえる かんじ3年 - 小学3年生の漢字200字を書き順どおりに"
 description: "小学3年生で習う漢字200字(学年別漢字配当表)を、正しい書き順でなぞって覚える iPhone・iPad アプリ。500円(買い切り)。広告・通信なし。"
 ---
 
@@ -11,7 +11,7 @@ description: "小学3年生で習う漢字200字(学年別漢字配当表)を、
 **なぞっておぼえる かんじ3年 は、小学3年生で習う漢字200字を、正しい書き順でなぞって覚える iPhone・iPad 向けのアプリです。**
 文部科学省の学年別漢字配当表のとおりの200字を収録しています。価格は500円(買い切り)で、広告・アプリ内課金・通信はありません。
 
-[App Store で見る](https://apps.apple.com/jp/app/id6814139038)
+<a class="store-button" href="https://apps.apple.com/jp/app/id6814139038">App Store で見る</a>
 
 | 項目 | 内容 |
 |---|---|
@@ -26,30 +26,210 @@ description: "小学3年生で習う漢字200字(学年別漢字配当表)を、
 
 ## 小学3年生で習う漢字の一覧(200字)
 
-学年別漢字配当表の順です。かっこの中は、アプリの書き順データの画数です。
+学年別漢字配当表の順です。画数は、アプリの書き順データの画数です。
 
-| 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 |
-|---|---|---|---|---|---|---|---|---|---|
-| 悪(11) | 安(6) | 暗(13) | 医(7) | 委(8) | 意(13) | 育(8) | 員(10) | 院(10) | 飲(12) |
-| 運(12) | 泳(8) | 駅(14) | 央(5) | 横(15) | 屋(9) | 温(12) | 化(4) | 荷(10) | 界(9) |
-| 開(12) | 階(12) | 寒(12) | 感(13) | 漢(13) | 館(16) | 岸(8) | 起(10) | 期(12) | 客(9) |
-| 究(7) | 急(9) | 級(9) | 宮(10) | 球(11) | 去(5) | 橋(16) | 業(13) | 曲(6) | 局(7) |
-| 銀(14) | 区(4) | 苦(8) | 具(8) | 君(7) | 係(9) | 軽(12) | 血(6) | 決(7) | 研(9) |
-| 県(9) | 庫(10) | 湖(12) | 向(6) | 幸(8) | 港(12) | 号(5) | 根(10) | 祭(11) | 皿(5) |
-| 仕(5) | 死(6) | 使(8) | 始(8) | 指(9) | 歯(12) | 詩(13) | 次(6) | 事(8) | 持(9) |
-| 式(6) | 実(8) | 写(5) | 者(8) | 主(5) | 守(6) | 取(8) | 酒(10) | 受(8) | 州(6) |
-| 拾(9) | 終(11) | 習(11) | 集(12) | 住(7) | 重(9) | 宿(11) | 所(8) | 暑(12) | 助(7) |
-| 昭(9) | 消(10) | 商(11) | 章(11) | 勝(12) | 乗(9) | 植(12) | 申(5) | 身(7) | 神(9) |
-| 真(10) | 深(11) | 進(11) | 世(5) | 整(16) | 昔(8) | 全(6) | 相(9) | 送(9) | 想(13) |
-| 息(10) | 速(10) | 族(11) | 他(5) | 打(5) | 対(7) | 待(9) | 代(5) | 第(11) | 題(18) |
-| 炭(9) | 短(12) | 談(15) | 着(12) | 注(8) | 柱(9) | 丁(2) | 帳(11) | 調(15) | 追(9) |
-| 定(8) | 庭(10) | 笛(11) | 鉄(13) | 転(11) | 都(11) | 度(9) | 投(7) | 豆(7) | 島(10) |
-| 湯(12) | 登(12) | 等(12) | 動(11) | 童(12) | 農(13) | 波(8) | 配(10) | 倍(10) | 箱(15) |
-| 畑(9) | 発(9) | 反(4) | 坂(7) | 板(8) | 皮(5) | 悲(12) | 美(9) | 鼻(14) | 筆(12) |
-| 氷(5) | 表(8) | 秒(9) | 病(10) | 品(9) | 負(9) | 部(11) | 服(8) | 福(13) | 物(8) |
-| 平(5) | 返(7) | 勉(10) | 放(8) | 味(8) | 命(8) | 面(9) | 問(11) | 役(7) | 薬(16) |
-| 由(5) | 油(8) | 有(6) | 遊(12) | 予(4) | 羊(6) | 洋(9) | 葉(12) | 陽(12) | 様(14) |
-| 落(12) | 流(10) | 旅(10) | 両(6) | 緑(14) | 礼(5) | 列(6) | 練(14) | 路(13) | 和(8) |
+<ul class="kanji-grid" aria-label="小学3年生で習う漢字 200字">
+  <li><span class="k">悪</span><span class="s">11画</span></li>
+  <li><span class="k">安</span><span class="s">6画</span></li>
+  <li><span class="k">暗</span><span class="s">13画</span></li>
+  <li><span class="k">医</span><span class="s">7画</span></li>
+  <li><span class="k">委</span><span class="s">8画</span></li>
+  <li><span class="k">意</span><span class="s">13画</span></li>
+  <li><span class="k">育</span><span class="s">8画</span></li>
+  <li><span class="k">員</span><span class="s">10画</span></li>
+  <li><span class="k">院</span><span class="s">10画</span></li>
+  <li><span class="k">飲</span><span class="s">12画</span></li>
+  <li><span class="k">運</span><span class="s">12画</span></li>
+  <li><span class="k">泳</span><span class="s">8画</span></li>
+  <li><span class="k">駅</span><span class="s">14画</span></li>
+  <li><span class="k">央</span><span class="s">5画</span></li>
+  <li><span class="k">横</span><span class="s">15画</span></li>
+  <li><span class="k">屋</span><span class="s">9画</span></li>
+  <li><span class="k">温</span><span class="s">12画</span></li>
+  <li><span class="k">化</span><span class="s">4画</span></li>
+  <li><span class="k">荷</span><span class="s">10画</span></li>
+  <li><span class="k">界</span><span class="s">9画</span></li>
+  <li><span class="k">開</span><span class="s">12画</span></li>
+  <li><span class="k">階</span><span class="s">12画</span></li>
+  <li><span class="k">寒</span><span class="s">12画</span></li>
+  <li><span class="k">感</span><span class="s">13画</span></li>
+  <li><span class="k">漢</span><span class="s">13画</span></li>
+  <li><span class="k">館</span><span class="s">16画</span></li>
+  <li><span class="k">岸</span><span class="s">8画</span></li>
+  <li><span class="k">起</span><span class="s">10画</span></li>
+  <li><span class="k">期</span><span class="s">12画</span></li>
+  <li><span class="k">客</span><span class="s">9画</span></li>
+  <li><span class="k">究</span><span class="s">7画</span></li>
+  <li><span class="k">急</span><span class="s">9画</span></li>
+  <li><span class="k">級</span><span class="s">9画</span></li>
+  <li><span class="k">宮</span><span class="s">10画</span></li>
+  <li><span class="k">球</span><span class="s">11画</span></li>
+  <li><span class="k">去</span><span class="s">5画</span></li>
+  <li><span class="k">橋</span><span class="s">16画</span></li>
+  <li><span class="k">業</span><span class="s">13画</span></li>
+  <li><span class="k">曲</span><span class="s">6画</span></li>
+  <li><span class="k">局</span><span class="s">7画</span></li>
+  <li><span class="k">銀</span><span class="s">14画</span></li>
+  <li><span class="k">区</span><span class="s">4画</span></li>
+  <li><span class="k">苦</span><span class="s">8画</span></li>
+  <li><span class="k">具</span><span class="s">8画</span></li>
+  <li><span class="k">君</span><span class="s">7画</span></li>
+  <li><span class="k">係</span><span class="s">9画</span></li>
+  <li><span class="k">軽</span><span class="s">12画</span></li>
+  <li><span class="k">血</span><span class="s">6画</span></li>
+  <li><span class="k">決</span><span class="s">7画</span></li>
+  <li><span class="k">研</span><span class="s">9画</span></li>
+  <li><span class="k">県</span><span class="s">9画</span></li>
+  <li><span class="k">庫</span><span class="s">10画</span></li>
+  <li><span class="k">湖</span><span class="s">12画</span></li>
+  <li><span class="k">向</span><span class="s">6画</span></li>
+  <li><span class="k">幸</span><span class="s">8画</span></li>
+  <li><span class="k">港</span><span class="s">12画</span></li>
+  <li><span class="k">号</span><span class="s">5画</span></li>
+  <li><span class="k">根</span><span class="s">10画</span></li>
+  <li><span class="k">祭</span><span class="s">11画</span></li>
+  <li><span class="k">皿</span><span class="s">5画</span></li>
+  <li><span class="k">仕</span><span class="s">5画</span></li>
+  <li><span class="k">死</span><span class="s">6画</span></li>
+  <li><span class="k">使</span><span class="s">8画</span></li>
+  <li><span class="k">始</span><span class="s">8画</span></li>
+  <li><span class="k">指</span><span class="s">9画</span></li>
+  <li><span class="k">歯</span><span class="s">12画</span></li>
+  <li><span class="k">詩</span><span class="s">13画</span></li>
+  <li><span class="k">次</span><span class="s">6画</span></li>
+  <li><span class="k">事</span><span class="s">8画</span></li>
+  <li><span class="k">持</span><span class="s">9画</span></li>
+  <li><span class="k">式</span><span class="s">6画</span></li>
+  <li><span class="k">実</span><span class="s">8画</span></li>
+  <li><span class="k">写</span><span class="s">5画</span></li>
+  <li><span class="k">者</span><span class="s">8画</span></li>
+  <li><span class="k">主</span><span class="s">5画</span></li>
+  <li><span class="k">守</span><span class="s">6画</span></li>
+  <li><span class="k">取</span><span class="s">8画</span></li>
+  <li><span class="k">酒</span><span class="s">10画</span></li>
+  <li><span class="k">受</span><span class="s">8画</span></li>
+  <li><span class="k">州</span><span class="s">6画</span></li>
+  <li><span class="k">拾</span><span class="s">9画</span></li>
+  <li><span class="k">終</span><span class="s">11画</span></li>
+  <li><span class="k">習</span><span class="s">11画</span></li>
+  <li><span class="k">集</span><span class="s">12画</span></li>
+  <li><span class="k">住</span><span class="s">7画</span></li>
+  <li><span class="k">重</span><span class="s">9画</span></li>
+  <li><span class="k">宿</span><span class="s">11画</span></li>
+  <li><span class="k">所</span><span class="s">8画</span></li>
+  <li><span class="k">暑</span><span class="s">12画</span></li>
+  <li><span class="k">助</span><span class="s">7画</span></li>
+  <li><span class="k">昭</span><span class="s">9画</span></li>
+  <li><span class="k">消</span><span class="s">10画</span></li>
+  <li><span class="k">商</span><span class="s">11画</span></li>
+  <li><span class="k">章</span><span class="s">11画</span></li>
+  <li><span class="k">勝</span><span class="s">12画</span></li>
+  <li><span class="k">乗</span><span class="s">9画</span></li>
+  <li><span class="k">植</span><span class="s">12画</span></li>
+  <li><span class="k">申</span><span class="s">5画</span></li>
+  <li><span class="k">身</span><span class="s">7画</span></li>
+  <li><span class="k">神</span><span class="s">9画</span></li>
+  <li><span class="k">真</span><span class="s">10画</span></li>
+  <li><span class="k">深</span><span class="s">11画</span></li>
+  <li><span class="k">進</span><span class="s">11画</span></li>
+  <li><span class="k">世</span><span class="s">5画</span></li>
+  <li><span class="k">整</span><span class="s">16画</span></li>
+  <li><span class="k">昔</span><span class="s">8画</span></li>
+  <li><span class="k">全</span><span class="s">6画</span></li>
+  <li><span class="k">相</span><span class="s">9画</span></li>
+  <li><span class="k">送</span><span class="s">9画</span></li>
+  <li><span class="k">想</span><span class="s">13画</span></li>
+  <li><span class="k">息</span><span class="s">10画</span></li>
+  <li><span class="k">速</span><span class="s">10画</span></li>
+  <li><span class="k">族</span><span class="s">11画</span></li>
+  <li><span class="k">他</span><span class="s">5画</span></li>
+  <li><span class="k">打</span><span class="s">5画</span></li>
+  <li><span class="k">対</span><span class="s">7画</span></li>
+  <li><span class="k">待</span><span class="s">9画</span></li>
+  <li><span class="k">代</span><span class="s">5画</span></li>
+  <li><span class="k">第</span><span class="s">11画</span></li>
+  <li><span class="k">題</span><span class="s">18画</span></li>
+  <li><span class="k">炭</span><span class="s">9画</span></li>
+  <li><span class="k">短</span><span class="s">12画</span></li>
+  <li><span class="k">談</span><span class="s">15画</span></li>
+  <li><span class="k">着</span><span class="s">12画</span></li>
+  <li><span class="k">注</span><span class="s">8画</span></li>
+  <li><span class="k">柱</span><span class="s">9画</span></li>
+  <li><span class="k">丁</span><span class="s">2画</span></li>
+  <li><span class="k">帳</span><span class="s">11画</span></li>
+  <li><span class="k">調</span><span class="s">15画</span></li>
+  <li><span class="k">追</span><span class="s">9画</span></li>
+  <li><span class="k">定</span><span class="s">8画</span></li>
+  <li><span class="k">庭</span><span class="s">10画</span></li>
+  <li><span class="k">笛</span><span class="s">11画</span></li>
+  <li><span class="k">鉄</span><span class="s">13画</span></li>
+  <li><span class="k">転</span><span class="s">11画</span></li>
+  <li><span class="k">都</span><span class="s">11画</span></li>
+  <li><span class="k">度</span><span class="s">9画</span></li>
+  <li><span class="k">投</span><span class="s">7画</span></li>
+  <li><span class="k">豆</span><span class="s">7画</span></li>
+  <li><span class="k">島</span><span class="s">10画</span></li>
+  <li><span class="k">湯</span><span class="s">12画</span></li>
+  <li><span class="k">登</span><span class="s">12画</span></li>
+  <li><span class="k">等</span><span class="s">12画</span></li>
+  <li><span class="k">動</span><span class="s">11画</span></li>
+  <li><span class="k">童</span><span class="s">12画</span></li>
+  <li><span class="k">農</span><span class="s">13画</span></li>
+  <li><span class="k">波</span><span class="s">8画</span></li>
+  <li><span class="k">配</span><span class="s">10画</span></li>
+  <li><span class="k">倍</span><span class="s">10画</span></li>
+  <li><span class="k">箱</span><span class="s">15画</span></li>
+  <li><span class="k">畑</span><span class="s">9画</span></li>
+  <li><span class="k">発</span><span class="s">9画</span></li>
+  <li><span class="k">反</span><span class="s">4画</span></li>
+  <li><span class="k">坂</span><span class="s">7画</span></li>
+  <li><span class="k">板</span><span class="s">8画</span></li>
+  <li><span class="k">皮</span><span class="s">5画</span></li>
+  <li><span class="k">悲</span><span class="s">12画</span></li>
+  <li><span class="k">美</span><span class="s">9画</span></li>
+  <li><span class="k">鼻</span><span class="s">14画</span></li>
+  <li><span class="k">筆</span><span class="s">12画</span></li>
+  <li><span class="k">氷</span><span class="s">5画</span></li>
+  <li><span class="k">表</span><span class="s">8画</span></li>
+  <li><span class="k">秒</span><span class="s">9画</span></li>
+  <li><span class="k">病</span><span class="s">10画</span></li>
+  <li><span class="k">品</span><span class="s">9画</span></li>
+  <li><span class="k">負</span><span class="s">9画</span></li>
+  <li><span class="k">部</span><span class="s">11画</span></li>
+  <li><span class="k">服</span><span class="s">8画</span></li>
+  <li><span class="k">福</span><span class="s">13画</span></li>
+  <li><span class="k">物</span><span class="s">8画</span></li>
+  <li><span class="k">平</span><span class="s">5画</span></li>
+  <li><span class="k">返</span><span class="s">7画</span></li>
+  <li><span class="k">勉</span><span class="s">10画</span></li>
+  <li><span class="k">放</span><span class="s">8画</span></li>
+  <li><span class="k">味</span><span class="s">8画</span></li>
+  <li><span class="k">命</span><span class="s">8画</span></li>
+  <li><span class="k">面</span><span class="s">9画</span></li>
+  <li><span class="k">問</span><span class="s">11画</span></li>
+  <li><span class="k">役</span><span class="s">7画</span></li>
+  <li><span class="k">薬</span><span class="s">16画</span></li>
+  <li><span class="k">由</span><span class="s">5画</span></li>
+  <li><span class="k">油</span><span class="s">8画</span></li>
+  <li><span class="k">有</span><span class="s">6画</span></li>
+  <li><span class="k">遊</span><span class="s">12画</span></li>
+  <li><span class="k">予</span><span class="s">4画</span></li>
+  <li><span class="k">羊</span><span class="s">6画</span></li>
+  <li><span class="k">洋</span><span class="s">9画</span></li>
+  <li><span class="k">葉</span><span class="s">12画</span></li>
+  <li><span class="k">陽</span><span class="s">12画</span></li>
+  <li><span class="k">様</span><span class="s">14画</span></li>
+  <li><span class="k">落</span><span class="s">12画</span></li>
+  <li><span class="k">流</span><span class="s">10画</span></li>
+  <li><span class="k">旅</span><span class="s">10画</span></li>
+  <li><span class="k">両</span><span class="s">6画</span></li>
+  <li><span class="k">緑</span><span class="s">14画</span></li>
+  <li><span class="k">礼</span><span class="s">5画</span></li>
+  <li><span class="k">列</span><span class="s">6画</span></li>
+  <li><span class="k">練</span><span class="s">14画</span></li>
+  <li><span class="k">路</span><span class="s">13画</span></li>
+  <li><span class="k">和</span><span class="s">8画</span></li>
+</ul>
 
 ## よくある質問
 
