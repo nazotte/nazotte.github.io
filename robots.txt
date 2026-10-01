@@ -1,0 +1,9 @@
+---
+layout: null
+sitemap: false
+---
+# 検索エンジンと AI のクローラーに、すべてのページを読んでよいことを示す
+User-agent: *
+Allow: /
+
+Sitemap: {{ site.url }}/sitemap.xml

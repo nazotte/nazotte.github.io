@@ -1,0 +1,28 @@
+# なぞっておぼえる
+
+> 正しい書き順でなぞって、ひらがな・カタカナと小学校の漢字(1026字)を覚える iPhone・iPad 向けアプリのシリーズ。広告・アプリ内課金・通信なし。個人情報を集めない。対応は iOS 16.0 以降。
+
+## アプリ
+
+- [なぞっておぼえる ひらがな・カタカナ](https://nazotte.github.io/kana/): ひらがな46字・カタカナ46字。無料。App Store: https://apps.apple.com/jp/app/id6814138535
+- [なぞっておぼえる かんじ1年](https://nazotte.github.io/kanji/1/): 小学1年生で習う漢字80字(学年別漢字配当表)。無料。App Store: https://apps.apple.com/jp/app/id6814138746
+- [なぞっておぼえる かんじ2年](https://nazotte.github.io/kanji/2/): 小学2年生で習う漢字160字(学年別漢字配当表)。無料。App Store: https://apps.apple.com/jp/app/id6814138729
+- [なぞっておぼえる かんじ3年](https://nazotte.github.io/kanji/3/): 小学3年生で習う漢字200字(学年別漢字配当表)。500円(買い切り)。App Store: https://apps.apple.com/jp/app/id6814139038
+- [なぞっておぼえる かんじ4年](https://nazotte.github.io/kanji/4/): 小学4年生で習う漢字202字(学年別漢字配当表)。500円(買い切り)。App Store: https://apps.apple.com/jp/app/id6814139047
+- [なぞっておぼえる かんじ5年](https://nazotte.github.io/kanji/5/): 小学5年生で習う漢字193字(学年別漢字配当表)。500円(買い切り)。App Store: https://apps.apple.com/jp/app/id6814139059
+- [なぞっておぼえる かんじ6年](https://nazotte.github.io/kanji/6/): 小学6年生で習う漢字191字(学年別漢字配当表)。500円(買い切り)。App Store: https://apps.apple.com/jp/app/id6814139116
+
+## 事実
+
+- 練習: 「なぞる」(光る画を書き順どおりに1画ずつ)と「かいてみる」(見ないで書く。漢字は例文の□を埋める)
+- 字のきれいさ・とめ・はね・はらいは判定しない。明らかに違う書き方だけ、書き直しを促す
+- 書き順: 小学校の書写(えんぴつ)の書き方に合わせる。データは KanjiVG (c) Ulrich Apel を改変(CC BY-SA 3.0)
+- 読み上げ: VOICEVOX:ずんだもん。練習の記録は端末の中だけに保存する
+
+## ページ
+
+- [かんじ 1〜6年の一覧](https://nazotte.github.io/kanji/)
+- [サポート・よくある質問](https://nazotte.github.io/support/)
+- [プライバシーポリシー](https://nazotte.github.io/privacy/)
+- [書き順データ](https://nazotte.github.io/stroke-data/)
+- [English](https://nazotte.github.io/en/)

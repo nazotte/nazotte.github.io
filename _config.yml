@@ -1,8 +1,15 @@
 # GitHub Pages(Jekyll)の設定。テーマは GitHub が用意しているものだけを使う(追加の依存を持ち込まない)。
 # minimal テーマは「View My GitHub Profile」ボタンを出すので使わない(利用者を GitHub のプロフィールへ誘導しない)
 title: なぞっておぼえる
-description: 正しい書き順でなぞって覚えるアプリ
+description: 正しい書き順でなぞって、ひらがな・カタカナと小学校の漢字1,026字を覚える iPhone・iPad アプリ。広告・アプリ内課金・通信なし。
+url: https://nazotte.github.io
 theme: jekyll-theme-cayman
 lang: ja
+# 検索・AI 向け: <head> の title / description / canonical / OGP(jekyll-seo-tag)と sitemap.xml(jekyll-sitemap)。
+# どちらも GitHub Pages が標準で入れているプラグイン(追加の依存なし)
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
 exclude:
   - .github
+  - _tools
