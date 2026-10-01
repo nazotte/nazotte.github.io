@@ -4,7 +4,7 @@ description: Apps for learning to write Japanese hiragana, katakana and school k
 lang: en
 ---
 
-<!-- 公開版(CHG-079 で発注者が公開を承認。連絡先 chemise_merry0o@icloud.com)。直すときはリポジトリ側 site/ を直して push する -->
+<!-- 公開版(CHG-079 で発注者が公開を承認。連絡先 chemise_merry0o@icloud.com)。このリポジトリ(nazotte/nazotte.github.io)が公開ページの正。ここを直して push する -->
 
 # Trace and Learn
 

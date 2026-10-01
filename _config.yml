@@ -17,3 +17,4 @@ plugins:
 exclude:
   - .github
   - _tools
+  - README.md
