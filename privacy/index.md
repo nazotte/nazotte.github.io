@@ -48,5 +48,5 @@ title: プライバシーポリシー
 
 [chemise_merry0o@icloud.com](mailto:chemise_merry0o@icloud.com)
 
-制定日: 2026年9月20日
+制定日: 2026年9月20日<br>
 改定日: 2026年9月30日(いろえらび64 を追加)

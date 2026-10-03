@@ -1,5 +1,6 @@
 ---
 title: Privacy Policy
+lang: en
 ---
 
 <!-- 公開版(CHG-079 で発注者が公開を承認。連絡先 chemise_merry0o@icloud.com)。このリポジトリ(nazotte/nazotte.github.io)が公開ページの正。ここを直して push する -->
@@ -48,7 +49,7 @@ Outside the Apps, on this website, there are two ways to reach us. **Neither is 
 
 [chemise_merry0o@icloud.com](mailto:chemise_merry0o@icloud.com)
 
-Effective date: 20 September 2026
+Effective date: 20 September 2026<br>
 Revised: 30 September 2026 (added いろえらび64)
 
 The Japanese version of this policy is the authoritative one: [プライバシーポリシー](../../privacy/)
