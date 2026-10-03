@@ -6,7 +6,7 @@ title: Privacy Policy
 
 # Privacy Policy
 
-Apps covered: Trace and Learn: Hiragana & Katakana, and なぞっておぼえる かんじ1年〜6年 (Kanji, Grades 1–6) ("the Apps").
+Apps covered: Trace and Learn: Hiragana & Katakana, なぞっておぼえる かんじ1年〜6年 (Kanji, Grades 1–6), and いろえらび64 - こどものぬりえ (a coloring app for children) ("the Apps").
 
 ## 1. Information we collect
 
@@ -18,11 +18,11 @@ The Apps do not connect to the internet. They contain no advertising, no analyti
 
 ## 3. Information stored on your device
 
-Practice records (which letters have been traced) and settings (such as the chosen voice and language) are stored on that device only. They are never sent anywhere. Deleting an App also deletes its records.
+Practice records (which letters have been traced) and settings (such as the chosen voice and language) are stored on that device only. They are never sent anywhere. Deleting an App also deletes its records. In いろえらび64, the finished drawings (the colors chosen) and settings are likewise stored on that device only.
 
 ## 4. Access to device features
 
-The Apps do not request access to the camera, microphone, location, photos or contacts.
+The Apps do not request access to the camera, microphone, location or contacts. Photos: only when a parent chooses "しゃしんに のこす" (save to Photos) in いろえらび64, the finished drawing is *added* to the photo library. The App does not ask for permission to read photos and never looks at what is in the photo library.
 
 ## 5. Sharing with third parties
 
@@ -49,5 +49,6 @@ Outside the Apps, on this website, there are two ways to reach us. **Neither is 
 [chemise_merry0o@icloud.com](mailto:chemise_merry0o@icloud.com)
 
 Effective date: 20 September 2026
+Revised: 30 September 2026 (added いろえらび64)
 
 The Japanese version of this policy is the authoritative one: [プライバシーポリシー](../../privacy/)

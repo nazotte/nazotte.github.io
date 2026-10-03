@@ -12,6 +12,7 @@ title: Support
 |---|---|
 | Trace and Learn: Hiragana & Katakana | Trace 46 hiragana and 46 katakana (basic syllables) in the correct stroke order |
 | なぞっておぼえる かんじ1年〜6年 (Kanji, Grades 1–6) | Trace the kanji taught in each grade of Japanese elementary school |
+| いろえらび64 - こどものぬりえ (a coloring app for children) | A coloring app with 64 colors to choose from. Switch the paper to "よるの かみ" (night paper) and the colors glow like neon |
 
 ## Frequently asked questions
 
@@ -38,6 +39,23 @@ Deleting the app deletes its records.
 
 **I found a letter whose stroke order looks wrong**
 Please tell us at the contact address below. It helps to say which letter and which stroke.
+
+### いろえらび64
+
+**I want to save a drawing to the Photos app**
+Open the drawing in the gallery and tap "しゃしんに のこす". After a check for a parent (a simple addition question), the drawing is added to the Photos app. The app only adds to Photos; it never reads your photos. Your iPhone or iPad asks for confirmation the first time only.
+
+**The drawing cannot be added to Photos**
+In the Settings app, open "いろえらび64" → "Photos" and allow adding.
+
+**I want to change how the screen looks**
+In "設定" (Settings, after the parent check), choose from the options under "画面の見た目" (appearance): パーティー ポップ, いつもの, ネオン クラブ and オーロラ グラス.
+
+**I want to delete a drawing**
+Open the drawing in the gallery and tap "けす". Choose "けす" on the confirmation screen to delete it. A deleted drawing cannot be restored.
+
+**I want to turn the voice off**
+In "設定", under "応援ボイス" (cheering voice), choose "オン" (on), "完成のときだけ" (only when a drawing is finished) or "オフ" (off).
 
 ## Contact
 
