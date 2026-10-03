@@ -10,6 +10,7 @@ description: "正しい書き順でなぞって、ひらがな・カタカナと
 
 **なぞっておぼえる は、正しい書き順でなぞって、ひらがな・カタカナと小学校の漢字を覚える iPhone・iPad 向けのアプリです。**
 ひらがな・カタカナが1本、漢字は小学1〜6年の学年ごとに1本ずつ(全1026字)あります。広告、アプリ内課金、通信はありません。
+同じ制作元の、64色から選んで塗るぬりえアプリ「いろえらび64」もあります。
 
 | アプリ | 内容 | 価格 | 入手 |
 |---|---|---|---|
@@ -20,8 +21,10 @@ description: "正しい書き順でなぞって、ひらがな・カタカナと
 | [なぞっておぼえる かんじ4年](kanji/4/) | 小学4年の漢字202字 | 500円 | [App Store](https://apps.apple.com/jp/app/id6814139047) |
 | [なぞっておぼえる かんじ5年](kanji/5/) | 小学5年の漢字193字 | 500円 | [App Store](https://apps.apple.com/jp/app/id6814139059) |
 | [なぞっておぼえる かんじ6年](kanji/6/) | 小学6年の漢字191字 | 500円 | [App Store](https://apps.apple.com/jp/app/id6814139116) |
+| [いろえらび64 - こどものぬりえ](irodori/) | 64色から選んで塗るぬりえ(線画94枚) | 無料 | [App Store](https://apps.apple.com/jp/app/id6816780704) |
 
 - [かんじ(小学1〜6年)の一覧とよくある質問](kanji/)
+- [いろえらび64 - こどものぬりえ](irodori/)
 - [プライバシーポリシー](privacy/)
 - [サポート](support/)
 - [書き順データ(CC BY-SA 3.0)](stroke-data/)
@@ -54,7 +57,8 @@ description: "正しい書き順でなぞって、ひらがな・カタカナと
     "https://apps.apple.com/jp/app/id6814139038",
     "https://apps.apple.com/jp/app/id6814139047",
     "https://apps.apple.com/jp/app/id6814139059",
-    "https://apps.apple.com/jp/app/id6814139116"
+    "https://apps.apple.com/jp/app/id6814139116",
+    "https://apps.apple.com/jp/app/id6816780704"
   ]
 }
 </script>

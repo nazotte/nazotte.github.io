@@ -1,6 +1,6 @@
 # なぞっておぼえる
 
-> 正しい書き順でなぞって、ひらがな・カタカナと小学校の漢字(1026字)を覚える iPhone・iPad 向けアプリのシリーズ。広告・アプリ内課金・通信なし。個人情報を集めない。対応は iOS 16.0 以降。
+> 正しい書き順でなぞって、ひらがな・カタカナと小学校の漢字(1026字)を覚える iPhone・iPad 向けアプリのシリーズ。広告・アプリ内課金・通信なし。個人情報を集めない。対応は iOS 16.0 以降(いろえらび64 は iOS 17.0 以降)。同じ制作元に、ぬりえアプリ「いろえらび64」がある。
 
 ## アプリ
 
@@ -11,6 +11,7 @@
 - [なぞっておぼえる かんじ4年](https://nazotte.github.io/kanji/4/): 小学4年生で習う漢字202字(学年別漢字配当表)。500円(買い切り)。App Store: https://apps.apple.com/jp/app/id6814139047
 - [なぞっておぼえる かんじ5年](https://nazotte.github.io/kanji/5/): 小学5年生で習う漢字193字(学年別漢字配当表)。500円(買い切り)。App Store: https://apps.apple.com/jp/app/id6814139059
 - [なぞっておぼえる かんじ6年](https://nazotte.github.io/kanji/6/): 小学6年生で習う漢字191字(学年別漢字配当表)。500円(買い切り)。App Store: https://apps.apple.com/jp/app/id6814139116
+- [いろえらび64 - こどものぬりえ](https://nazotte.github.io/irodori/): 64色から色を選んで塗る、5〜12歳向けのぬりえ。線画94枚。無料。App Store: https://apps.apple.com/jp/app/id6816780704
 
 ## 事実
 

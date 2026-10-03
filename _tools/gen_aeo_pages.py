@@ -2,7 +2,7 @@
 """公開ページの AEO / AIO / SEO 用ページを作る(標準ライブラリだけ)。
 
 作るもの(手で編集しない。直すときはこのスクリプトを直して再実行する):
-  index.md / kana/index.md / kanji/index.md / kanji/<1-6>/index.md / llms.txt
+  index.md / kana/index.md / irodori/index.md / kanji/index.md / kanji/<1-6>/index.md / llms.txt
 
 字の一覧と画数は stroke-data/data/*.json(公開済みの書き順データ)から取る。
 使い方:  python3 _tools/gen_aeo_pages.py          # 書き出す
@@ -28,6 +28,8 @@ APPS = {
     4: {"id": "6814139047", "bundle": "io.github.nazotte.kanji4", "price": 500},
     5: {"id": "6814139059", "bundle": "io.github.nazotte.kanji5", "price": 500},
     6: {"id": "6814139116", "bundle": "io.github.nazotte.kanji6", "price": 500},
+    # いろえらび64 は発注者から渡された App Store の URL と、そのページの表示(無料・iOS 17.0 以降・4+・教育)で 2026-10-03 に確かめた
+    "irodori": {"id": "6816780704", "name": "いろえらび64 - こどものぬりえ", "price": 0, "os": "iOS 17.0 以降"},
 }
 GRADES = range(1, 7)
 KANJI_NAMES = {g: f"なぞっておぼえる かんじ{g}年" for g in GRADES}
@@ -61,7 +63,7 @@ def publisher():
     return {"@type": "Organization", "name": "なぞっておぼえる", "url": f"{SITE}/"}
 
 
-def app_ld(key, name, desc, page_url, level=None):
+def app_ld(key, name, desc, page_url, level=None, os_name="iOS 16.0 以降"):
     ld = {
         "@context": "https://schema.org",
         "@type": "MobileApplication",
@@ -70,7 +72,7 @@ def app_ld(key, name, desc, page_url, level=None):
         "url": page_url,
         "installUrl": store_url(key),
         "sameAs": store_url(key),
-        "operatingSystem": "iOS 16.0 以降",
+        "operatingSystem": os_name,
         "applicationCategory": "EducationalApplication",
         "inLanguage": "ja",
         "isAccessibleForFree": APPS[key]["price"] == 0,
@@ -283,6 +285,59 @@ def kana_page() -> str:
 {chr(10).join(jsonld(x) for x in ld)}
 """
 
+# ---------------------------------------------------------------- いろえらび64
+
+def irodori_page() -> str:
+    url = f"{SITE}/irodori/"
+    name = APPS["irodori"]["name"]
+    os_req = f"{APPS['irodori']['os']}(iPhone・iPad)"
+    desc = ("64色から色を選んで塗る、こども向けのぬりえ iPhone・iPad アプリ。94枚の線画。"
+            "「よるの かみ」で塗った色がネオンのように光る。無料・広告なし・通信なし。")
+    faqs = [
+        (f"{name} は無料ですか?", "無料です。広告やアプリ内課金もありません。"),
+        ("何歳向けですか?", "5〜12歳のこども向けです。年齢区分は 4+ です。"),
+        ("何枚のぬりえがありますか?", "94枚の線画を収録しています。64色から色を選んで塗ります。"),
+        ("「よるの かみ」とは何ですか?", "紙を「よるの かみ」にすると、暗い背景の上で、塗った色がネオンのように光ります。"),
+        ("塗った絵を写真アプリに残せますか?",
+         "ギャラリーで絵を開き「しゃしんに のこす」を押すと、保護者の方への確認(かんたんな たし算)のあと、写真アプリに追加します。"
+         "追加するだけで、写真を読みとることはありません。"),
+        ("画面の見た目を変えられますか?",
+         "「設定」(保護者の方への確認のあと)の「画面の見た目」で、パーティー ポップ・いつもの・ネオン クラブ・オーロラ グラス から選べます。"),
+        ("個人情報は集めますか?",
+         "集めません。通信もアカウント登録もありません。作品は端末の中だけに保存します。"),
+        ("作品を消せますか?", "ギャラリーで絵を開き「けす」を押します。消した作品は戻せません。"),
+        ("iPad でも使えますか?", f"使えます。対応は {os_req} です。"),
+    ]
+    ld = [app_ld("irodori", name, desc, url, level="幼児・小学生", os_name=APPS["irodori"]["os"]),
+          faq_ld(faqs),
+          crumbs_ld([("なぞっておぼえる", f"{SITE}/"), ("いろえらび64", url)])]
+    return f"""{front(f'{name} - 64色から選んで塗るぬりえ', desc)}
+# {name}
+
+**{name} は、64色から色を選んで塗る、こども向けのぬりえアプリです。**
+94枚の線画を収録し、紙を「よるの かみ」にすると塗った色がネオンのように光ります。無料で、広告・アプリ内課金・通信はありません。
+
+<a class="store-button" href="{store_url('irodori')}">App Store で見る</a>
+
+| 項目 | 内容 |
+|---|---|
+| 内容 | 64色から選んで塗るぬりえ(線画94枚) |
+| 対象 | 5〜12歳 |
+| 価格 | 無料 |
+| 対応 | {os_req} |
+| 年齢区分 | 4+ |
+| 広告・課金・通信 | なし |
+| 保存 | 作品は端末の中だけ。写真アプリへは、保護者の方が選んだときだけ「追加」 |
+
+## よくある質問
+
+{faq_md(faqs)}
+
+[トップへ](../) / [サポート](../support/) / [プライバシーポリシー](../privacy/)
+
+{chr(10).join(jsonld(x) for x in ld)}
+"""
+
 # ---------------------------------------------------------------- トップ・llms.txt
 
 def index_page() -> str:
@@ -291,6 +346,7 @@ def index_page() -> str:
     rows = [f"| [{APPS['kana']['name']}](kana/) | ひらがな46字・カタカナ46字 | 無料 | [App Store]({store_url('kana')}) |"]
     rows += [f"| [{KANJI_NAMES[g]}](kanji/{g}/) | 小学{g}年の漢字{len(KANJI[g])}字 | {price_text(g).replace('(買い切り)', '')} "
              f"| [App Store]({store_url(g)}) |" for g in GRADES]
+    rows += [f"| [{APPS['irodori']['name']}](irodori/) | 64色から選んで塗るぬりえ(線画94枚) | 無料 | [App Store]({store_url('irodori')}) |"]
     site_ld = {
         "@context": "https://schema.org", "@type": "WebSite", "name": "なぞっておぼえる",
         "url": f"{SITE}/", "inLanguage": "ja", "publisher": publisher(),
@@ -302,12 +358,14 @@ def index_page() -> str:
 
 **なぞっておぼえる は、正しい書き順でなぞって、ひらがな・カタカナと小学校の漢字を覚える iPhone・iPad 向けのアプリです。**
 ひらがな・カタカナが1本、漢字は小学1〜6年の学年ごとに1本ずつ(全{TOTAL}字)あります。広告、アプリ内課金、通信はありません。
+同じ制作元の、64色から選んで塗るぬりえアプリ「いろえらび64」もあります。
 
 | アプリ | 内容 | 価格 | 入手 |
 |---|---|---|---|
 {chr(10).join(rows)}
 
 - [かんじ(小学1〜6年)の一覧とよくある質問](kanji/)
+- [いろえらび64 - こどものぬりえ](irodori/)
 - [プライバシーポリシー](privacy/)
 - [サポート](support/)
 - [書き順データ(CC BY-SA 3.0)](stroke-data/)
@@ -323,7 +381,8 @@ def llms_txt() -> str:
         "# なぞっておぼえる",
         "",
         f"> 正しい書き順でなぞって、ひらがな・カタカナと小学校の漢字({TOTAL}字)を覚える iPhone・iPad 向けアプリのシリーズ。"
-        "広告・アプリ内課金・通信なし。個人情報を集めない。対応は iOS 16.0 以降。",
+        "広告・アプリ内課金・通信なし。個人情報を集めない。対応は iOS 16.0 以降(いろえらび64 は iOS 17.0 以降)。"
+        "同じ制作元に、ぬりえアプリ「いろえらび64」がある。",
         "",
         "## アプリ",
         "",
@@ -331,6 +390,8 @@ def llms_txt() -> str:
     ]
     lines += [f"- [{KANJI_NAMES[g]}]({SITE}/kanji/{g}/): 小学{g}年生で習う漢字{len(KANJI[g])}字(学年別漢字配当表)。"
               f"{price_text(g)}。App Store: {store_url(g)}" for g in GRADES]
+    lines.append(f"- [{APPS['irodori']['name']}]({SITE}/irodori/): 64色から色を選んで塗る、5〜12歳向けのぬりえ。線画94枚。"
+                 f"無料。App Store: {store_url('irodori')}")
     lines += [
         "",
         "## 事実",
@@ -354,7 +415,8 @@ def llms_txt() -> str:
 
 def outputs() -> dict[Path, str]:
     out = {ROOT / "index.md": index_page(), ROOT / "kana/index.md": kana_page(),
-           ROOT / "kanji/index.md": kanji_hub_page(), ROOT / "llms.txt": llms_txt()}
+           ROOT / "kanji/index.md": kanji_hub_page(), ROOT / "llms.txt": llms_txt(),
+           ROOT / "irodori/index.md": irodori_page()}
     for g in GRADES:
         out[ROOT / f"kanji/{g}/index.md"] = kanji_grade_page(g)
     return out
