@@ -11,7 +11,7 @@ Apps covered: Trace and Learn: Hiragana & Katakana, なぞっておぼえる か
 
 ## 1. Information we collect
 
-The Apps collect no information about you. They never ask for a name, e-mail address, location, photos or contacts, and they do not use any device identifier.
+The Apps collect no information about you. They never ask for a name, e-mail address, location or contacts, and they do not use any device identifier. They do not read the photo library, and they do not send photos off the device.
 
 ## 2. Network
 
@@ -23,7 +23,7 @@ Practice records (which letters have been traced) and settings (such as the chos
 
 ## 4. Access to device features
 
-The Apps do not request access to the camera, microphone, location or contacts. Photos: only when a parent chooses "しゃしんに のこす" (save to Photos) in いろえらび64, the finished drawing is *added* to the photo library. The App does not ask for permission to read photos and never looks at what is in the photo library.
+The Apps do not request access to the camera, microphone, location or contacts. Photos: only when a parent chooses "しゃしんに のこす" (save to Photos) in いろえらび64, the finished drawing is *added* to the photo library. The App does not ask for permission to read photos and never looks at what is in the photo library. The sentence iOS shows for that permission is the Japanese text 「ぬった絵を、写真アプリに追加します。」
 
 ## 5. Sharing with third parties
 
@@ -50,6 +50,6 @@ Outside the Apps, on this website, there are two ways to reach us. **Neither is 
 [chemise_merry0o@icloud.com](mailto:chemise_merry0o@icloud.com)
 
 Effective date: 20 September 2026<br>
-Revised: 30 September 2026 (added いろえらび64)
+Revised: 8 October 2026 (いろえらび64 may add a picture to Photos. It does not read or send photos.)
 
 The Japanese version of this policy is the authoritative one: [プライバシーポリシー](../../privacy/)
